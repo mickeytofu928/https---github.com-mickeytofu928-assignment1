@@ -1,0 +1,52 @@
+table, td, th {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+table {
+    width: 50%;
+}
+
+td, th {
+    padding: 5px 5px;
+    text-align: center;
+}
+
+thead {
+    background: #21579c;
+    color: #fff;
+}
+
+tbody tr:nth-child(even){
+    background: #e1e1e4;
+}
+
+#searchicon {
+    width: 20px;
+    top: 2px;
+    position: relative;
+    left: 15px;
+}
+
+.voiceicon {
+    width: 30px;
+    position: relative;
+    top: 5px;
+    margin-left: 25px;
+}
+
+#GoogleSearch {
+    margin: 0 auto;
+    width: 552px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+}
+
+.search {
+    width: 440px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: 15px;
+}
